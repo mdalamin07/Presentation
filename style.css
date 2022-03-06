@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.navbar{
+    color: #00b0ff!important;
+    background-color: #ffffff;
+    border-bottom: 1px solid #00b0ef;
+}
+.navbar-brand{
+    color: #00b0ff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-brand:hover{
+    color: #00b0ff;
+}
+.nav-link{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+/* .active{
+    color: aqua;
+    font-weight: bolder;
+    border-bottom: 1px solid aqua;
+} */
+.nav-link:hover{
+    color: #00b0ff;
+    font-weight: bolder;
+}
+/* Home Start */
+#home {
+    background-color: #EFFFFD;
+}
+.home{
+    margin: auto 0;
+}
+.home h2{
+    text-transform: uppercase;
+    margin: auto 0;
+    /* margin-top: 250px; */
+}
+.home h2 span{
+    color: #00b0ff;
+}
+.home a{
+    padding: 7px 25px;
+    color: #00b0ff;
+    border-color: #00b0ff;
+}
+.home a:hover{
+    color: #000000;
+    background-color: #00b0ff;
+}
+/* Home End */
+/* About Area Start */
+.about_head h3{
+    font-weight: bold;
+}
+.about_team h4{
+    font-weight: bold;
+}
+.about_team span{
+    color: #00b0ff;
+    text-transform: uppercase;
+}
+/* About Area End */
+
+/* portfolio start */
+#portfolio{
+    background-color: #EFFFFD;
+}
+.porotfolio_head h3{
+    font-weight: bold;
+}
+.portfolio_item {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #00b0ef;
+    padding: 10px;
+    margin: auto 0;
+}
+.portfolio_item h5{
+    font-size: 18px;
+}
+/* portfolio End */
+
+/* Contact Start */
+.contact_head h5{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.from_head h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00b0ef;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00b0ef;
+    margin-bottom: 15px;
+}
+.send_message_btn{
+    padding: 10px 50px;
+    color: #000000;
+    border-color: #00b0ff;
+    font-weight: bold;
+    outline: none;
+    transition: 0.5s;
+    width: 50%;
+}
+.send_message_btn:hover{
+    color: #000000;
+    background-color: #00b0ef;
+}
+/* Contact End */
+/* Footer Start */
+footer{
+    text-align: center;
+    color: #000000;
+    background-color: #00b0ef;
+}
+/* Footer End */
